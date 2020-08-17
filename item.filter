@@ -329,10 +329,10 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 
 //RuneWord Bases
 //Leaf Staves
-ItemDisplay[WP11 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%Leaf%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Hydra%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Meteor%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FB%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
+ItemDisplay[WP11 (SOCK=2) (NMAG AND !RW)]: %GRAY%[%WHITE%Leaf%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Hydra%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Meteor%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FB%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 SK51>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FW%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND RW) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -361,9 +361,9 @@ ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% 
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[6cb SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //Infi/Insi/Pride and Obedience/Doom
-ItemDisplay[WP8 (ETH AND NMAG OR RW) (SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%] %GRAY%(Insight Base)%CONTINUE%
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[7vo (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
+ItemDisplay[WP8 (ETH AND NMAG OR RW) (SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7vo (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Grief/Beast/Passion
 ItemDisplay[(7cr OR 7wa) (!ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %NAME% %TAN%[%SOCKETS%]
