@@ -6,8 +6,10 @@ ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<500 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<1000 CLVL>79]:
 
-//Throws 35k+
-ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
+//Sellable
+ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %WHITE%%NAME%%TAN%[35k]
+ItemDisplay[(chn OR spl OR plt OR fld OR gth OR ful OR aar OR ltp) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%sell %WHITE%%NAME%
+ItemDisplay[EQ2 (EXC OR ELT) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%sell %WHITE%%NAME%%TAN%[35k]
 
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
@@ -327,11 +329,11 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 
 //RuneWord Bases
 //Leaf Staves
-ItemDisplay[WP11 (SOCK=2) (NMAG OR RW)]: %GRAY%[%white%Leaf%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%white%3Hydra%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%white%3Meteor%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%white%3FB%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP11 SK51>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%white%3FW%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%Leaf%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
+ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Hydra%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
+ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Meteor%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
+ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FB%GRAY%] %NAME% %TAN%[%SOCKETS%]%CONTINUE%
+ItemDisplay[WP11 SK51>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FW%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND RW) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND NMAG) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
