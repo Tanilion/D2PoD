@@ -329,9 +329,9 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 
 //RuneWord Bases
 //Leaf Staves
-ItemDisplay[WP11 (SOCK=2) (NMAG AND !RW)]: %GRAY%[%WHITE%Leaf%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Hydra%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Meteor%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 (SOCK=2) (NMAG AND !RW)]: %GRAY%[Leaf] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3HyD%GRAY%] %PURPLE%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Met%GRAY%] %PURPLE%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FB%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 SK51>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FW%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
@@ -361,8 +361,8 @@ ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% 
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[6cb SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //Infi/Insi/Pride and Obedience/Doom
-ItemDisplay[WP8 (NORM OR EXC) (NMAG AND !RW) (!ETH AND !INF) SOCK=4]: %GRAY%[%WHITE%Insight%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP8 (NORM OR EXC) (NMAG AND !RW) (ETH AND !INF) SOCK=4]: %GRAY%[%WHITE%eth Insight%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 (NORM OR EXC) (NMAG AND !RW) (!ETH AND !INF) SOCK=4]: %GRAY%[Insight] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP8 (NORM OR EXC) (NMAG AND !RW) (ETH AND !INF) SOCK=4]: %GRAY%[eth Insight] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7vo (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
