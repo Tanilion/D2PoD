@@ -330,10 +330,10 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 //RuneWord Bases
 //Leaf Staves
 ItemDisplay[WP11 (SOCK=2) (NMAG AND !RW)]: %GRAY%[Leaf] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3HyD%GRAY%] %PURPLE%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3Met%GRAY%] %PURPLE%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FB%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP11 SK51>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3FW%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK62>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3hy%GRAY%] %PURPLE%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK56>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3me%GRAY%] %PURPLE%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK47>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3fb%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP11 SK51>2 (SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3fw%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Spirit Swords
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND RW) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND NMAG) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -354,8 +354,17 @@ ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3pn%GRAY
 ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2) (NMAG OR RW)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Memory
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) SK58>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) SK58>2 SOCK=4]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) SK62>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3hy%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) SK62>2 SOCK=4]: %GRAY%[%WHITE%3hy%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) SK64>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3fo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) SK64>2 SOCK=4]: %GRAY%[%WHITE%3fo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) (SK58>2 AND SK62>2) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es 3hy%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK62>2) SOCK=4]: %GRAY%[%WHITE%3es 3hy%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) (SK58>2 AND SK64>2) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es 3fo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK64>2) SOCK=4]: %GRAY%[%WHITE%3es 3fo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR RW) (SK58>2 AND SK62>2 AND SK64>2) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es 3hy 3fo%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR RW) (SK58>2 AND SK62>2 AND SK64>2) SOCK=4]: %GRAY%[%WHITE%3es 3hy 3fo%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Faith
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
